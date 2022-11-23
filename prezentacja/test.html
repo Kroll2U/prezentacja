@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PREZENTACJA O HTTPS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="test.js" defer></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="ikonka.jpg">
+
+    </head>
+    <body>
+        <a href="ostatnislajd.html"><i class='fa-solid fa-arrow-left-long'
+                id="left-arrow"></i></a>
+        <div id="container">
+            <h1>Sprawdź czy potrafisz</h1>
+            <form method="dialog">
+                <h2>Pytanie 1.</h2>
+                <input type="radio" name="answer1" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <input type="radio" name="answer1" value="correct"><label>Poprawna
+                    odpowiedź</label><br>
+                <input type="radio" name="answer1" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+
+                <h2>Pytanie 2.</h2>
+
+                <input type="radio" name="answer2" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <input type="radio" name="answer2" value="correct"><label>Poprawna
+                    odpowiedź</label><br>
+                <input type="radio" name="answer2" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+
+                <h2>Pytanie 3.</h2>
+
+                <input type="radio" name="answer3" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <input type="radio" name="answer3" value="correct"><label>Poprawna
+                    odpowiedź</label><br>
+                <input type="radio" name="answer3" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+
+                <h2>Pytanie 4.</h2>
+
+                <input type="radio" name="answer4" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <input type="radio" name="answer4" value="correct"><label>Poprawna
+                    odpowiedź</label><br>
+                <input type="radio" name="answer4" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+
+                <h2>Pytanie 5.</h2>
+
+                <input type="radio" name="answer5" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <input type="radio" name="answer5" value="correct"><label>Poprawna
+                    odpowiedź</label><br>
+                <input type="radio" name="answer5" value="wrong"><label>Zła
+                    odpowiedź</label><br>
+                <br>
+                <button onclick="return wynik();" type="submit">
+                    SPRAWDŹ</button>
+            </form>
+            <h3>Wynik</h3>
+            <p id="results"></p>
+            <p id="grade"></p>
+        </div>
+    </body>
+</html>

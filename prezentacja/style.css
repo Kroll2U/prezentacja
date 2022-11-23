@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body            
+{
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: lightgrey;
+    width: 85%;
+    height: auto;
+    min-height: 80vh;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.50);
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.http{
+width: 35%;
+
+}
+.zdjęcie{
+    display: block;
+}
+.https{
+    width: 35%;
+}
+
+#container{
+    background-color: lightgrey;
+    width: 80%;
+    height: 1020px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.50);
+    transition: 0.5s;
+    margin-bottom:30px;
+}
+
+#grade{
+    text-align: center;
+    margin: auto;
+}
+
+form{
+    margin: auto;
+    width: 16%;
+}
+
+#results{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main:hover{
+    transform: scale(1.02);
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 80%;
+}
+
+#left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    font-size: 34px;
+    transition: 0.5s;
+}
+
+#left-arrow:hover{
+    transform: scale(1.5);
+}
+#right-arrow:hover{
+    transform: scale(1.5);
+}
+
+.SSL {
+    text-align: left;
+}
+
+#right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    font-size: 34px;
+    transition: 0.5s;
+}
+ h3{
+    text-align: center;
+ }
+
+.check-js{
+    padding: 20px;
+    background-color: rgb(108, 255, 206);
+    text-decoration: none;
+    color: rgb(0, 151, 8);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.check-js:hover{
+    transform: scale(1.1);
+}
+
+.check-html:hover{
+    transform: scale(1.1);
+}
+
+.check-css:hover{
+    transform: scale(1.1);
+}
+
+a.go-test:hover{
+    transform: scale(1.1);
+}
+
+.check-html{
+    padding: 20px;
+    background-color: rgb(155, 93, 93);
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.check-css{
+    padding: 20px;
+    background-color: rgb(159, 199, 243);
+    text-decoration: none;
+    color: rgb(43, 0, 255);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+a.go-test{
+    padding: 20px;
+    background-color: rgb(0, 123, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin-top: 80px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#go-test-icon{
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+img.html{
+    width: 35px;
+    height: 50px;
+}
+
+img.css{
+    width: 35px;
+    height: 50px;
+}
+
+img.js{
+    width: 35px;
+    height: 50px;
+}
+
+.go-test{
+    margin: auto;
+}
+
+#check-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background-color: aqua;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover{
+    background-color: rgb(0, 117, 117);
+    color: white;
+    cursor: pointer;
+}
+
